@@ -1,0 +1,62 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+/*  -- articulos --  */
+
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #9E9E9E;
+}
+
+.post .thumb {
+	width: 40%;
+	margin-right: 10px;
+}
+
+.post .thum img {
+	width: 100%;
+}
+
+.img-logo {
+	width: 30px;
+	height: 30px;
+}
+
+/*-- estilo del footer --*/
+
+.foot{
+	background-color: black;
+	color: rgb(189, 189, 189);
+	padding-top: 27px;
+	padding-bottom: 20px;
+}
+
+/*-- boton hacia arriba --*/
+
+.btn-arriba {
+	position: fixed;
+	z-index: 100;
+	bottom: 25px;
+	right: 25px;
+}
+
+.btn-size {
+	font-size: 32px;
+}
+
+.btn-arriba-text {|
+	font-size: 24px;
+}
+
+.gly-top{
+	top: 12px;
+}
+/*-- media query --*/
+@media screen and (max-width: 768px){
+	.post .thumb {
+		width: 100%;
+		margin-right: 0;
+	}
+}
